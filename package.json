@@ -23,5 +23,10 @@
     "express": "^4.17.1",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "prettier": "2.5.1"
   }
 }
