@@ -1,14 +1,13 @@
-# Budget Tracker 
+# Budget Tracker
 
 ## Description
 
-This is a simple application to use MVC model with node js to connect to mongoDB access REST apis. This is an application to view a budget tracker where you can input transactions to track your spending. The focus of this assignement is PWA and offline functionality when connection is unstable. The website is still functional and works with or without internet connectivity with express. 
+This is a simple application to use MVC model with node js to connect to mongoDB access REST apis. This is an application to view a budget tracker where you can input transactions to track your spending. The focus of this assignement is PWA and offline functionality when connection is unstable. The website is still functional and works with or without internet connectivity with express.
 Techonologies mongoDB, PWA, express, MVC model, service workers and cache.
 
-## Link to Application
+## Application
 
-[Tech Blog  
-<img src="./images/tech_blog_app.png" width="600"> ](https://fabio-tech-blog.herokuapp.com/)
+   <img src="./images/budget-tracker.png" width="800">
 
 ## Table of Contents
 
@@ -30,6 +29,7 @@ This is for local install if you want to deploy the appliaction yourself
 ```
     npm install
 ```
+
 3. Start the application on nodeJS
 
 ```
@@ -38,23 +38,12 @@ This is for local install if you want to deploy the appliaction yourself
 
 ## Usage
 
-1. Once the application is started go to application website (default: https://localhost:3001)
-2. Homepage, ability to see all posts,
-   <img src="./images/step2.png" width="600">  
-3. Login page with option to create a new user   
-   <img src="./images/step3a.png" width="300">
-   <img src="./images/step3b.png" width="300">
-4. Dashboard available after login.
-   <img src="./images/step4.png" width="600">
-5. Create new a post
-   <img src="./images/step5.png" width="600">  
-6. Dashboard displays all posts created by user with ability to edit post
-   <img src="./images/step6.png" width="600">  
-7. User can edit post content and title or delete post. Additionally user can also add comments to post here.
-   <img src="./images/step7a.png" width="600">
-   <img src="./images/step7b.png" width="600">
-8. Clicking on Post title redirects to post details and comments
-   <img src="./images/step8.png" width="600">  
+1. Once the application is started go to application website (default: https://localhost:3000)
+   <img src="./images/step1.png" width="600">
+2. Enter Transaction Name and Ammount and select to add or subtract funds  
+   <img src="./images/step2.png" width="300">
+3. See live updates and history on the graph and chart with live total at the top
+   <img src="./images/step3.png" width="600">
 
 ## Credits
 
@@ -73,7 +62,9 @@ Feel free to clone and improve on this application!
 
 ## Tests
 
-[Demo Video](https://watch.screencastify.com/v/4vRBbrvRmK1lbjJbBTMd)
+This app also works in offline mode. Test with chrome dev tools!
+Select network tab and offine mode. Refresh browser and the application still functions including adding and subtracting funds!  
+<img src="./images/budget-tracker-offline.png" width="600">
 
 ## Questions
 
