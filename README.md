@@ -3,11 +3,13 @@
 ## Description
 
 This is a simple application to use MVC model with node js to connect to mongoDB access REST apis. This is an application to view a budget tracker where you can input transactions to track your spending. The focus of this assignement is PWA and offline functionality when connection is unstable. The website is still functional and works with or without internet connectivity with express.
-Techonologies mongoDB, PWA, express, MVC model, service workers and cache.
+Techonologies mongoDB, PWA, express, MVC model, Heroku, service workers and cache.
 
 ## Application
 
-   <img src="./images/budget-tracker.png" width="800">
+[Deployed application on Heroku](https://fabio-budget-tracker.herokuapp.com/)
+
+<img src="./images/budget-tracker.png" width="800">
 
 ## Table of Contents
 
